@@ -39,7 +39,7 @@ linie_pliku = plik.readlines()
 
 print(linie_pliku)
 
-plik.close
+plik.close()
 
 # ['Ucze sie programowac.\n', 'Ala ma Kota.\n', 'Kot to Filemon.\n']
 
