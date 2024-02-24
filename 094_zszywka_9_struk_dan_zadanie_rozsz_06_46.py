@@ -1,8 +1,8 @@
 # Zad 6.
 # Wyboraź sobie, że otrzymałeś z API następujące dane:
 
-{
-    data: [1, 2, 'asd', [2, 3, 4, 5]],
+data = {
+    'data': [1, 2, 'asd', [2, 3, 4, 5]],
     'nested_analysis': {
         'analysis_1': [1, 10, 15, 120.2, '120'],
         'analysis_2': [10, 100, 'test', 200, 300],

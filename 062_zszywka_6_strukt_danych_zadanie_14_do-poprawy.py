@@ -3,7 +3,12 @@
 # Twoim zadaniem jest za pomocą listy i zagnieżdżonej w niej list z gwiazdkami, odzwierciedlić
 # kształt +, a następnie wydrukować zawartość tych list, aby otrzymać oczekiwany efekt, np.
 
-arr = [['      *       '], ['     ***      ']]
+arr = [['      *       '], ['      *       '], ['     ***      '], ['      *       '], ['      *       ']]
 
 for ar in arr:
+
+
+
+
+
     print(ar)
