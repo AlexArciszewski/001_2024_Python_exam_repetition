@@ -19,7 +19,7 @@ plik = open("plik_binarny.bin", "wb")
 
 liczby = [1,2,4,5,7]
 
-# bin_lista = bytearray(liczby) bytearray() zwraca postać bajtową danego obiektu tablicowego
+bin_lista = bytearray(liczby) #bytearray() zwraca postać bajtową danego obiektu tablicowego
 
 
 plik.write(bin_lista)
