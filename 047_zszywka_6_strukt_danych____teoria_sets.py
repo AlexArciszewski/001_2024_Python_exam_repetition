@@ -11,7 +11,7 @@
 # print(A.issubset(B))             #czy jeden zbiór-A jest podzbiorem-B 2 zbioru
 
 #zbior SET: nie moze miec zduplikowanych danych
-names_set ={"Celina", "Dorota","Adam", "Barbara", "Ewa","Karol","Dorota"}
+names_set ={"Celina", "Dorota", "Adam", "Barbara", "Ewa", "Karol", "Dorota"}
 print(names_set)
 names_set =set() #pusty set
 names_set.add("Tomasz") #dodanie do set/zbioru

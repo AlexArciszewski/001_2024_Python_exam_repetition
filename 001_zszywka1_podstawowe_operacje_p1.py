@@ -62,3 +62,13 @@ print(napis[-5:])
 print(napis[:]) # wyświetla skopiowany w całości napis (odpowiednik dla [pierwszy_indeks:końcowy_indeks])
 print(napis[-5:])
 
+napisNowy = "Ala ma Koty"
+print(napisNowy[len(napisNowy) - 1])
+print(napisNowy[:2])
+print(napisNowy[10])
+print(napisNowy[-11])
+print(napisNowy[-11:-8])
+print(napisNowy[0:3])
+print(napisNowy[:])
+print(napisNowy[0:-1])
+print(napisNowy[0:-1:2])
