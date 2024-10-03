@@ -197,3 +197,21 @@ print(4 not in a)
 # for i in range(len(list_of_words)):
 #     dict2_of_words[list_of_words[i]] = list_of_reps[i]
 # print(dict2_of_words)
+
+# List comprehensions
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even_numbers1 = []
+for n in numbers:
+    if n %2 == 0:
+        # print(n)
+        even_numbers1.append(n)
+even_numbers1
+
+
+
+
+
+
+
+
