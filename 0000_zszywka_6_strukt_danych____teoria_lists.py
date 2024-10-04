@@ -209,7 +209,15 @@ for n in numbers:
 even_numbers1
 
 
+# Sumowanie sum()
+pensje = {'ksiegowa': 5000, 'kierowca': 4500, 'recepcjonistka': 4000}
 
+sum_salary = []
+for values in pensje.values():
+    sum_salary.append(values)
+
+total = sum(sum_salary)
+print(total)
 
 
 

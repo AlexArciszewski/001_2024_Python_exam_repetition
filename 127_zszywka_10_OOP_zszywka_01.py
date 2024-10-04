@@ -14,6 +14,8 @@ class Czlowiek:
 #Po drugie, self umożliwia odwoływanie się do pól danej klasy, gdy znajdujemy się wewnątrz niej. Self będziemy
 # wykorzystywali za każdym razem, gdy programując funkcjonalność danej klasy,
 # będziemy odwoływali się do jej składników (do pól i metod).
+
+
 def main():
 
     osoba1 = Czlowiek("Olo", "M", 41)

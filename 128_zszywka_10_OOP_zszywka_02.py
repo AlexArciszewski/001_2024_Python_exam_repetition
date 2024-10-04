@@ -11,7 +11,7 @@ class Pojazd:
     def metoda_bezargumentowa(self):
         pass
 
-    def metodazjednym_argumentem(self,jeden_argument):
+    def metodazjednym_argumentem(self, jeden_argument):
         pass
 
 

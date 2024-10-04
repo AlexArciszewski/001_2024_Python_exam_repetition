@@ -115,9 +115,14 @@ print(name_age_dict)
 print(name_age_dict.get('Kacper'))
 print(name_age_dict.get())
 
+#zwracanie sumy elementów dict
+pensje = {'ksiegowa': 5000, 'kierowca': 4500, 'recepcjonistka': 4000}
+print(sum(pensje.values()))
+
+
 
 #usuwanie del
-Members = {"John": "Male", "Kat": "Female", "Doe": "Female" "Clinton": "Male"}
+Members = {"John": "Male", "Kat": "Female", "Doe": "Female", "Clinton": "Male"}
 
 del Members["Doe"]
 print(Members)
