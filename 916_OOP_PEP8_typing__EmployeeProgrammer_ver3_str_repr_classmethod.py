@@ -21,7 +21,6 @@ zwieksz_stawke(procent: float) - zwiększ stawkę godzinową programisty o podan
 
 Dodajemy __Str__ w klasie Employee
 """
-from Pracownik4 import Employee
 
 
 class Employee:
@@ -29,7 +28,6 @@ class Employee:
 
     def __init__(self, name: str, surname: str, wage: float) -> None:
         """initialize a new employee with name, surname and wage"""
-
         self.name = name
         self.surname = surname
         self.wage = wage
@@ -59,7 +57,7 @@ class Employee:
         return salary
 
     @classmethod
-    def creating_new_guy(cls, name: str, surname: str, wage: float) -> Employee:
+    def creating_new_guy(cls, name: str, surname: str, wage: float) -> "Employee":
         """Class method to create a new employee"""
         return cls(name, surname, wage)
 
@@ -98,6 +96,7 @@ def main() -> None:
     jake = Employee.creating_new_guy('Jake', 'Smith', 105.4)
     print(jake)
     jake.work()
+
 
 
 if __name__ == "__main__":
