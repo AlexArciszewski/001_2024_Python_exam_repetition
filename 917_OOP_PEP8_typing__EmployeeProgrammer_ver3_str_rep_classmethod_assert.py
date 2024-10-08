@@ -58,7 +58,7 @@ class Employee:
         return salary
 
     @classmethod
-    def creating_new_guy(cls, name: str, surname: str, wage: float) -> Employee:
+    def creating_new_guy(cls, name: str, surname: str, wage: float) -> "Employee":
         """Class method to create a new employee"""
         return cls(name, surname, wage)
 
