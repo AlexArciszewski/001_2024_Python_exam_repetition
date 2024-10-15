@@ -1,3 +1,5 @@
+# map() stosuje funkcję do elementów sekwencji i zwraca przekształconą listę.
+# zip() łączy elementy z dwóch lub więcej sekwencji w pary (lub krotki).
 # Map prykład z użyciem listy
 # Załóżmy, że mamy listę liczb, a chcemy uzyskać ich kwadraty za pomocą map().
 numbers = []
@@ -11,11 +13,11 @@ def square(x: int) -> int:
 
     return x**2
 
-
-squared_numbers = map(square, numbers)
+print("Map i kwadraty liczb")
+squared_numbers = list(map(square, numbers))
 print(squared_numbers)
 
-# dostajemy:<map object at 0x0000029218B8BE20>
+# dostajemy:<map object at 0x0000029218B8BE20> bez wpisania list
 # iterator zmieniamy na listę
 print(list(squared_numbers))
 
@@ -26,13 +28,13 @@ print(list(squared_numbers))
 # Przykład:
 # Załóżmy, że mamy dwie listy: jedną z imionami i drugą z wiekiem. Chcemy je sparować za pomocą zip().
 
-
+print("zip")
 names = ["Anna", "Barbara", "Jan"]
 ages = [25, 30, 22]
 
 # Lączyy wiek i osoby
 
-paired = zip(names, ages)
+paired = list(zip(names, ages))
 print(paired)
 # /dostajemy iterator zmieniamy na lsitę bo dostaliśmy <zip object at 0x0000021E66BC73C0>
 
@@ -40,7 +42,7 @@ print(list(paired))
 # [('Anna', 25), ('Barbara', 30), ('Jan', 22)]
 
 
-# MAP +ZIP
+print("MAP +ZIP")
 
 # Listy długości
 meters = [1, 2, 3]
