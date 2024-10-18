@@ -8,7 +8,7 @@ L = [('Anna', 82), ('Robert', 33), ('Artur', 40), ('Feliks', 56)]
 # W poniższej linijce funkcja sorted pobiera sekwencję danych do posortowania i klucz, po którym będzie sortować.
 # Sekwencją jest lista L, a kluczem lambda, która dla kolejnego elementu listy L (czyli tupli)
 # zwraca drugi element danej tupli.
-L_posortowana = sorted(L, key = lambda x:x[1])
+L_posortowana = sorted(L, key=lambda x:x[1])
 #sortujemy w liscie L za pomoca funkcji lambda gdzie kluczem jest x[1] wyrazenia
 # czyli drugi element paryw  tupli sortujemy po wieku
 print(L_posortowana)
