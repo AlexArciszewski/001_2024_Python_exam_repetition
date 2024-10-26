@@ -73,7 +73,7 @@ class Programmer(Employee):
 
     def write_code(self) -> None:
         """method to show the string I am writing...."""
-        print(f"I am writing some code now...")
+        print(f"My name is {self.name} I am writing some code now...")
 
     def increase_wage(self, percent_given: float) -> float:
         """method to calculate the increase wage of the Programmer"""
@@ -89,7 +89,7 @@ def main() -> None:
     tom.work()
     tom.salary(10)
     ann = Programmer('Ann', 'Smith', 110, coding_language=['Python'])
-    ann.write_code()
+    print(ann.write_code())
     ann.increase_wage(100)
     print(tom)
     # print(repr(tom))
