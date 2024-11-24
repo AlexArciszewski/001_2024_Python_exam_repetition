@@ -15,7 +15,7 @@ import pytest
 def fibonacci(number) -> int:
     """fibonacci sequence"""
     lenght_list = []
-    for number in range(1, number+1):
+    for number in range(1, number + 1):
         lenght_list.append(number)
     # print(lenght_list)
     # print(len(lenght_list))
@@ -44,27 +44,27 @@ print("\n Opcja nr 2 \n")
 # def test_fibonacci(number: int, expected: int) -> None:
 #     assert fibonacci(number) == expected
 
-#rekurencja
-
-def fibonacci_r(n):
-    if n <= 1:
-        return n
-    return fibonacci_r(n - 1) + fibonacci_r(n - 2)
-
-
-print(fibonacci_r(10))
-
-#zlożoność O(2^N)
-
-print("\n Opcja nr 3 \n")
-
-
-def fibonacci_l(n):     #O(n)
-    p, d = 0, 1
-    for _ in range(n):
-        p, d = d, p+d
-    return p
-
-
-print(fibonacci_l(10))
-
+# #rekurencja
+# 
+# def fibonacci_r(n):
+#     if n <= 1:
+#         return n
+#     return fibonacci_r(n - 1) + fibonacci_r(n - 2)
+# 
+# 
+# print(fibonacci_r(10))
+# 
+# #zlożoność O(2^N)
+# 
+# print("\n Opcja nr 3 \n")
+# 
+# 
+# def fibonacci_l(n):     #O(n)
+#     p, d = 0, 1
+#     for _ in range(n):
+#         p, d = d, p+d
+#     return p
+# 
+# 
+# print(fibonacci_l(10))
+# 
