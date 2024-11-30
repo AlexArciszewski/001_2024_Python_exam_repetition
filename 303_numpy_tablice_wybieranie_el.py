@@ -14,7 +14,7 @@ print(a[1:3, :2])
 
 #z tablicy wybieramy elementy różne
 
-b = np.array([1, 2, 3, 4 ,5, 6, 7, 8])
+b = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 
 #pierwsze 2 elementy na pozycji 0 oraz 1
 print(b[:2])

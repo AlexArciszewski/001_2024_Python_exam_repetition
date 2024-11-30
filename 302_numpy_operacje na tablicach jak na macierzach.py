@@ -53,7 +53,7 @@ print(np.size(a))
 
 a = np.array([[1, 2, 3], [4, 5, 6]])
 
-print(a>2)
+print(a > 2)
 
 
 #[[False False  True]
