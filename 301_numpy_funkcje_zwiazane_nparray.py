@@ -1,4 +1,4 @@
-#Funkcje zwiazane nd.array()
+#Funkcje zwiazane np.array()
 import numpy as np
 
 #1. np.zeros()

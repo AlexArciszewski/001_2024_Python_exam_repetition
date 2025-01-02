@@ -11,7 +11,7 @@ x = np.array([1, 2, 3, 4, 5])
 print(x)
 #[1 2 3 4 5]
 
-# druga tablica 3 wymairy
+# druga tablica 3 wymiary
 y = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print(y)
 #[[1 2 3]
