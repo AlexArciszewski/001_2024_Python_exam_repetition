@@ -1,6 +1,6 @@
 #Tworzenie tablic wielowymiarowych
 # np.array() wymaga podania konkretnych wartości
-# np.arange() zwraca liczby z podanego rpzedziału co dany krok
+# np.arange() zwraca liczby z podanego przedziału co dany krok
 # np.linspace() zwraca rowno rozłożone liczby w podanym przedziale
 
 import numpy as np

@@ -9,7 +9,12 @@ print(a[1:3, :2])
 
 #[[ 5  6]
 # [ 9 10]]
+print("zad2")
+print(a[0:, :4])
 
+#[[ 1  2  3  4]
+#[ 5  6  7  8]
+#[ 9 10 11 12]]
 
 
 #z tablicy wybieramy elementy różne
@@ -53,7 +58,7 @@ print(c[:2])
 
 #wiersze od 1 i 2 bez 0 oraz kolumny od 2 do końca z pominieciem 0 i 1
 c = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
-print(c[1:3,:2])
+print(c[1:3, :2])
 
 #[[ 5  6]
 # [ 9 10]]
