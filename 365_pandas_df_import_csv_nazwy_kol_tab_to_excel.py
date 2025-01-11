@@ -1,6 +1,6 @@
 #Zadanie
 #Zaimportuj dane będące w pliku *homework.csv*. Po zaimportowaniu danych zmień nazwy kolumn na:
-# Imię, Nazwisko, Wzrost oraz Kolor oczu.
+# Imię, Nazwisko, Wzrost oraz Kolor oczu.Zapisz tabelę do excela w pliku Pracownicy
 
 
 
@@ -40,3 +40,11 @@ print(df.head())
 # 2       Adam     Ziab     177       Szare
 # 3  Agnieszka     Klos     156       Szare
 # 4    Paulina    Zgryz     199     Zielone
+
+df.to_excel("C:/Users/arcis/PycharmProjects/pythonProject25/365_pdexcel.xlsx", sheet_name='pracownicy')
+
+
+
+
+
+
