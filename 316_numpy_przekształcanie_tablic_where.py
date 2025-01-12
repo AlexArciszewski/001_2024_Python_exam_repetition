@@ -15,3 +15,6 @@ print(my_tab)
 
 a = np.where(my_tab >= 15, 100, 0)
 print(a)
+
+# [[  0   0 100]
+#  [  0   0 100]]
