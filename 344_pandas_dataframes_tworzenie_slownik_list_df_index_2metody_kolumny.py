@@ -52,7 +52,7 @@ print(df)
 #4            Pomorskie     Gdańsk        2.35
 #5          małopolskie     Kraków        3.4
 
-df.index =['MAZ', 'WM', 'POD', 'POM', 'MAL']
+df.index = ['MAZ', 'WM', 'POD', 'POM', 'MAL']
 
 print(df)
 

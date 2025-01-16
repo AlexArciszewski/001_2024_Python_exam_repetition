@@ -1,4 +1,4 @@
-#wartości liczbowe dla zbioru liczb funkcje pomagają w oblcizeniach. Funkcja z numpy where
+# wartości liczbowe dla zbioru liczb funkcje pomagają w oblcizeniach. Funkcja z numpy where
 import numpy as np
 import pandas as pd
 
@@ -18,5 +18,5 @@ print(y.std())
 #1.5811388300841898
 
 # Funkcja where warunek,co ma zwrócic jak jest ok, co ma zwórcić jak warunek nei jest spelniony
-print(np.where(y >3, y, 'False'))
-#['False' 'False' 'False' '4' '5']
+print(np.where(y > 3, y, 'False'))
+# ['False' 'False' 'False' '4' '5']
