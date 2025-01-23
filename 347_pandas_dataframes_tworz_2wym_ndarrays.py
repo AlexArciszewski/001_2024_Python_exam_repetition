@@ -26,7 +26,7 @@ print(df)
 
 print("\n oznaczenie  kolumn \n")
 
-df = pd.DataFrame(x, columns = ['wojewodztwo','stolica','l_ludnosci'])
+df = pd.DataFrame(x, columns=['wojewodztwo', 'stolica', 'l_ludnosci'])
 print(df)
 
 #           wojewodztwo    stolica l_ludnosci

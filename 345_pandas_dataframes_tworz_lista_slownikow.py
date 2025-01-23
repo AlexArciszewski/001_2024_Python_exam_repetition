@@ -22,3 +22,13 @@ lista_slownikow = [
 print(lista_slownikow)
 df=pd.DataFrame(lista_slownikow)
 print(df)
+
+#           wojewodztwo    stolica  l_ludnosci
+#0          Mazowieckie   Warszawa        5.42
+#1  Warminsko-Mazurskie    Olsztyn        1.42
+#2            Podlaskie  Białystok        1.18
+#3            Pomorskie     Gdańsk        2.35
+#4          Małopolskie     Kraków        3.41
+
+
+
