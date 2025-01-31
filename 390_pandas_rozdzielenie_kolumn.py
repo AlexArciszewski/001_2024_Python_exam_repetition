@@ -56,6 +56,20 @@ print(df)
 print("\n")
 
 df[['Rozdzielone Imię', 'Rozdzielona Płeć']] = df['Imię + Płeć'].str.split(' ', expand=True)
+
+#expand=True:
+
+ #   Wynik podziału jest zwracany jako DataFrame.
+ #   Każda część tekstu po podziale trafia do osobnej kolumny, a indeksy są zachowywane.
+ #   To pozwala na bezpośrednie przypisanie wyników do kilku kolumn DataFrame.
+
+#expand=False (domyślne):
+
+# Wynik podziału jest zwracany jako lista w każdej komórce oryginalnej kolumny.
+# #Utrudnia to przypisanie do wielu kolumn w DataFrame, ponieważ trzeba ręcznie przetwarzać te listy.
+
+
+
 df.drop('Imię + Płeć', axis=1, inplace=True)
 print(df)
 
