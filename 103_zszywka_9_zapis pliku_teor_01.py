@@ -1,4 +1,4 @@
-plik = open("plik.txt","r")     #do odczytu ściezka względna dobry jak plik znajduje się w meijscu pliku wykonującego program lub plik uruchamiany z poziomu IDLEco plik skryptowy z rozszerzeniem .py
+plik = open("plik.txt","r")     #do odczytu ściezka względna dobry jak plik znajduje się w meijscu pliku wykonującego program lub plik uruchamiany z poziomu IDLEco plik skryptowy z rozszerzeniem 414_pandas_zmiana_typu_danych_kol_astype_to_numeric.py
 plik2 = open("C:\Users\Admin\plik2.txt","w") #do zapisu scieżka bezwzględna
 
 # Po pracy z plikiem zamykamy do niego dostęp.
