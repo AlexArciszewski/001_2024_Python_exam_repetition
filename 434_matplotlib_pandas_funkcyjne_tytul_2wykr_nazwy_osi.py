@@ -1,6 +1,5 @@
 #należy na początku zdefiniować x i y, czyli która zmienna będzie na osi y, a która na osi x.
-
-
+#Tytuł wykresu
 
 import numpy as np 
 import matplotlib
@@ -20,6 +19,14 @@ print(df.info())
 
 x = df['Data']
 y = df['Wynik finansowy']
-plt.plot(x,y)
+plt.plot(x, y, label='Wynik finansowy') #nazwa drugiego wykresu
+plt.title('Wynik finansowy przedsiębiorstwa')
+plt.xlabel('Data')
+plt.ylabel('Wynik finansowy')
+
+
+plt.plot(x, df['Przychody'], label='Przychody')
+
+plt.legend()
 plt.savefig('wykres001.jpg')
 plt.show()
