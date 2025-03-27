@@ -14,6 +14,7 @@ df['Data'] = pd.to_datetime(df['Data'])
 
 print(df.info())
 
-
 print(df.plot('Data','Wynik finansowy'))
 print(plt.show())
+
+
