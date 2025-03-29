@@ -29,3 +29,22 @@ plt.title('Wynik finansowy organizacji')
 #legenda
 plt.legend(loc=2)
 plt.show()
+#'b'	niebieski (blue)
+#'g'	zielony (green)
+#'r'	czerwony (red)
+#'c'	cyjan (cyan)
+#'m'	magenta
+#'y'	żółty (yellow)
+#'k'	czarny (black)
+#'w'	biały (white)
+#'.'	kropka
+#','	piksel
+#'o'	kółko
+#'v'	trójkąt w dół
+#'^'	trójkąt w górę
+#'s'	kwadrat
+#'p'	pięciokąt
+#'*'	gwiazdka
+#'x'	krzyżyk
+#'+'	plus
+#'D'	romb
