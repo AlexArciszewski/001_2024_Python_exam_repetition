@@ -4,7 +4,7 @@ import seaborn as sns
 import pandas as pd
 
 
-path = r"C:\Dane\26_SQL\3_database\3_db_cars_csv_2\vehicles.csv"
+#path = r"C:\Dane\26_SQL\3_database\3_db_cars_csv_2\vehicles.csv"
 # df = pd.read_csv(path)
 # print(df.head())
 # df.info()
