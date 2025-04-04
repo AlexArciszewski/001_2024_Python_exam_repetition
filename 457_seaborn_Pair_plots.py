@@ -17,7 +17,7 @@ print(df.head())
 sns.pairplot(df)
 plt.show()
 
-# Pair Plots to bardzo często używane narzędzie przez każdego analityka danych. Za ich pomocą tworzą się wykresy obrazujące zależności między każdą parą zmiennych 
+# wykresy obrazujące zależności między każdą parą zmiennych 
 # ilościowych znajdujących się w naszym zbiorze danych.
 #zostały wyróżnione trzy zmienne: total_bill, tip oraz size. Wszystkie te zmienne są ilościowe. Na głównej przekątnej znajdują się histogramy, 
 # ponieważ na głównej przekątnej znajdują się zależności między tymi samymi zmiennymi.

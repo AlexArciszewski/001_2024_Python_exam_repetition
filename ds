@@ -1,0 +1,35 @@
+[33mcommit bfd39f1b5353b9f08124bd48def92ae2858345ef[m
+Author: AlexArciszewski <arciszew@yahoo.com>
+Date:   Thu Apr 3 13:06:29 2025 +0200
+
+    Usunięcie vehicles.csv z indeksu
+
+[33mcommit d76eacb63a648bd651d658807fc0cb1d23fe1cce[m
+Author: AlexArciszewski <arciszew@yahoo.com>
+Date:   Thu Apr 3 13:03:29 2025 +0200
+
+    Odświeżenie indeksu i poprawka .gitignore
+
+[33mcommit cff350f65dd9db79a2e05524d193d6d2d1d897b1[m
+Author: AlexArciszewski <arciszew@yahoo.com>
+Date:   Thu Apr 3 13:00:16 2025 +0200
+
+    Usunięcie plików z indeksu i dodanie do .gitignore
+
+[33mcommit ada584369188983eff80f9ac2818ace7064404d3[m
+Author: AlexArciszewski <arciszew@yahoo.com>
+Date:   Thu Apr 3 12:56:29 2025 +0200
+
+    Naprawa ignorowania plików
+
+[33mcommit 67e89da1d2099e2640b5a0c9221ff9ac7433f391[m
+Author: AlexArciszewski <arciszew@yahoo.com>
+Date:   Thu Apr 3 12:46:55 2025 +0200
+
+    New Seaborn graphs added
+
+[33mcommit 5f17d27c6e31f10d5c4eaffe8a6b17499415bc3c[m
+Author: AlexArciszewski <arciszew@yahoo.com>
+Date:   Thu Apr 3 12:44:48 2025 +0200
+
+    New Seaborn graphs added
