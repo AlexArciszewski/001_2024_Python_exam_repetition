@@ -82,8 +82,7 @@ print(zdanie.find("yt"))
 #73 znak od 0
 
 print(zdanie.find("ala"))
-#-1 bo nie znalazł
-
+#-1 bo nie znalaz
 print(zdanie.index("yt"))
 #73 znak od 0
 print(zdanie.find("ala"))
