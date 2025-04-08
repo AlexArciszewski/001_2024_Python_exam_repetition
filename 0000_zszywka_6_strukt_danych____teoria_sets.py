@@ -115,9 +115,9 @@ print(some_set)
 
 #wyświetl konkretny element zbioru:
 # Nie iteruje się i nie ma slicingu trzeba zmienic set na listę i wyświetlić el listy:
-word_set ={}
-y = list(word_set)
-print(y)
-print(y[0], y[3])
+# word_set ={}
+# y = list(word_set)
+# print(y)
+# print(y[0], y[3])
 
 
