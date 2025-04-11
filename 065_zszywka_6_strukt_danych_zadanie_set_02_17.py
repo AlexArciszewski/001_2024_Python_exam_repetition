@@ -17,7 +17,7 @@
 # some_sentence = input("Pls write some sentence: ")
 
 # jebac pis,ko,psl,trzeia droge, kukiza, holownie i konfederacje!
-some_sentence = "jebac pis, ko, psl, trzecia droge, kukiza, holownie i konfederacje!"
+some_sentence = "Dzisiaj było slonecznie póxniej padal snieg"
 new_string = ""
 
 to_remove = [",", ".", ":", ";", "!", "?"]

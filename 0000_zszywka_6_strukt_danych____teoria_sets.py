@@ -115,9 +115,20 @@ print(some_set)
 
 #wyświetl konkretny element zbioru:
 # Nie iteruje się i nie ma slicingu trzeba zmienic set na listę i wyświetlić el listy:
-# word_set ={}
-# y = list(word_set)
-# print(y)
-# print(y[0], y[3])
+word_set ={}
+y = list(word_set)
+print(y)
+print(y[0], y[3])
+#ostatni element
+moj_zbior = {'a', 'b', 'c'}
 
+for element in moj_zbior:
+    ostatni = element
 
+print(ostatni)
+
+#pierwszy
+
+moj_zbior = {'jabłko', 'banan', 'gruszka'}
+pierwszy = next(iter(moj_zbior))
+print(pierwszy)

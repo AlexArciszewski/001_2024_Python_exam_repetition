@@ -9,6 +9,7 @@ print(name[-1])     #ostatnia litera
 print(name[0:3])    # trzy litery zaczynając od pierwszej na pozycji zero
 print(name[1:])     # wszystkie litery zaczynając od drugiej. Po : nie piszemy nic to idzie do konca
 print(name[-3:])    # trzy ostatnie
+print('python'[1:4]) #yth
 
 zdanie = " To jest przypomnienie podstaw programowania z roznych kursow jak udemy, yt i inne."
 print(zdanie.split(" ")) #rozdzielenie zdania na wyrazy gdzie rozdielającym znakiemjest spacja Tworzy sie lista
@@ -82,7 +83,8 @@ print(zdanie.find("yt"))
 #73 znak od 0
 
 print(zdanie.find("ala"))
-#-1 bo nie znalaz
+#-1 bo nie znalazł
+
 print(zdanie.index("yt"))
 #73 znak od 0
 print(zdanie.find("ala"))

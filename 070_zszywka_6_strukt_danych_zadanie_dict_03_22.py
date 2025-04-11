@@ -17,7 +17,7 @@ list_of_words = text2.split(" ")
 print(list_of_words)
 
 
-#tworzenie listy powtórzeń ktorą zzipuję zórna listą i zrobię słownik
+#tworzenie listy powtórzeń ktorą zzipuję z górna listą i zrobię słownik
 list_of_reps = []
 for word in list_of_words:
     counter = list_of_words.count(word)

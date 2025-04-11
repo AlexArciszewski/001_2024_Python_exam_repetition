@@ -156,18 +156,41 @@ def remove_from_list():
 
 from typing import Callable
 
+def menu():
+    print("To jest menu.")
+
+def add_to_list():
+    print("Dodano do listy.")
+
+def remove_from_list():
+    print("Usunięto z listy.")
+
 options: dict[int, Callable] = {
     1: menu,
     2: add_to_list,
     3: remove_from_list,
-
 }
 
 user_choice = int(input("Podaj swój wybór: "))
 
+if user_choice in options:
+    options[user_choice]()  # wywołanie funkcji
+else:
+    print("Nieprawidłowy wybór.")
 
 
 
+dict.clear()	#Usuwa wszystkie elementy ze słownika
+dict.copy()	#Zwraca płytką kopię słownika
+dict.fromkeys(seq[value])	#Tworzy nowy słownik z kluczami z seq i wspólną wartością value
+dict.get(key[default])	#Zwraca wartość dla klucza key, lub default, jeśli klucza nie ma
+dict.items()	#Zwraca widok (iterowalny) par (klucz, wartość)
+dict.keys()	#Zwraca widok (iterowalny) wszystkich kluczy
+dict.pop(key[default])	#Usuwa i zwraca wartość podanym kluczu; jeśli brak – zwraca default lub błąd
+dict.popitem()	#Usuwa i zwraca losową (w Pythonie 3.6+ ostatnią) parę (klucz, wartość)
+dict.setdefault(key[default])	#Zwraca wartość pod key, jeśli nie istnieje – tworzy go z default
+dict.update([other])#	Dodaje/aktualizuje pary klucz-wartość z innego słownika lub iterowalnego
+dict.values()	#Zwraca widok (iterowalny) #wszystkich wartości
 
 
 
@@ -373,6 +396,31 @@ for klient in zamowienia:
 # rachunek 5.0
 
 
+
+some_cars = {"1994 Dodge Viper" : 1, "1968 Ford Mustang Fastback" : 2, "1998 Hummer H1" : 3 }
+
+for cars in some_cars:
+    print(some_cars)
+
+
+print(some_cars.values())
+print(some_cars.keys())
+print(some_cars["1994 Dodge Viper" ])
+#1
+
+for key, value in some_cars.items():
+    if value == 1:
+        print(key)
+#"1994 Dodge Viper"
+for key, value in some_cars.items():
+    if key == "1994 Dodge Viper" :
+        print(value)
+#1
+def get_key_by_value(dict, val):
+    return [k for k, v in dict.items() if v == val]
+#"1994 Dodge Viper"
+print(get_key_by_value(some_cars, 1))  # ['1994 Dodge Viper']
+
 cities = ['Boston', 'Londyn', 'Boston', '']
 temperatures = ['12', '10', '12', '']
 
@@ -389,6 +437,13 @@ for key, value in list(cities_temps.items()):
     if value == '':
         del cities_temps[key]
 print(cities_temps)
+
+
+
+
+
+
+
 
 
 #podmiana elementów w dick el z listy
@@ -428,3 +483,21 @@ for key, val in zip(dct.keys(), lst):
 
 
 print(dct)
+
+#Odwracanie slownika:
+some_dict = {'a' : 3, 'b' : 1, 'c' : 10, 'd' : 15, 'e' : 20}
+print(some_dict)
+print(some_dict.keys())
+print(some_dict.values())
+
+new_keys = some_dict.values()
+new_values = some_dict.keys()
+converted_dict = dict(zip(new_keys, new_values))
+print(converted_dict)
+
+print("opcja B")
+
+odwrocony_d = {}
+for key, value in some_dict.items():
+    odwrocony_d[value] = key
+print(odwrocony_d)
