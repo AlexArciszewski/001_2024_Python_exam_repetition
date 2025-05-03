@@ -164,6 +164,10 @@ print("word"[
       ::-1])  # pierwsze ":" nie ma pozycji startu lecimy od poczatku, drugie ":" nie ma endu czyli lecimy domyślnie od końca, -1 to step od końca po jednej literce.
 # wynik to: drow
 
+owoce = ["jabłko", "banan", "wiśnia", "banan"]
+
+indeks = owoce.index("banan")
+print(indeks)
 
 # 17: numer max index z listy
 nums = [4, 6, 8, 24, 12, 2]

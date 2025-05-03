@@ -501,3 +501,22 @@ odwrocony_d = {}
 for key, value in some_dict.items():
     odwrocony_d[value] = key
 print(odwrocony_d)
+
+#max wartości;
+# Przykładowy słownik
+my_dict = {'Alice': 50, 'Bob': 75, 'Charlie': 100}
+
+# Wyciąganie klucza z najwyższą wartością
+max_key = max(my_dict, key=my_dict.get)
+
+print(f"Klucz z najwyższą wartością to: {max_key}")
+print(f"Najwyższa wartość to: {my_dict[max_key]}")
+
+
+max_bid:float = max(bid_dict.values())
+        winner:str = None
+        for key, value in bid_dict.items():
+            if value == max_bid:
+                winner = key
+                break
+        print(f"Auction ended . The winner was: {key}")
