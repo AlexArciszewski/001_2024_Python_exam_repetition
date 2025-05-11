@@ -18,6 +18,10 @@ print(c.max())
 #srednia
 print(c.mean())
 
+
+mean_columns = c.mean(axis=0)
+print("Średnia dla każdej kolumny:", mean_columns)
+
 #6.5
 
 #suma
