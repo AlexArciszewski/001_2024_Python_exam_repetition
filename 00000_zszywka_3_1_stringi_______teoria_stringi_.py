@@ -15,6 +15,7 @@ zdanie = " To jest przypomnienie podstaw programowania z roznych kursow jak udem
 print(zdanie.split(" ")) #rozdzielenie zdania na wyrazy gdzie rozdielającym znakiemjest spacja Tworzy sie lista
 
 #otrzymamy:['', 'To', 'jest', 'przypomnienie', 'podstaw', 'programowania', 'z', 'roznych', 'kursow', 'jak', 'udemy,', 'yt', 'i', 'inne.']
+print(zdanie.split(" "), 1) #-.1 to liczba elmenetów
 
 join_string = " " #zrobienie zdania z listy
 
@@ -31,7 +32,7 @@ print(name.endswith("R")) #false bo konczy sie na małe r
 print(name.rstrip("r")) #usuneicie z prawej pierwzego r
 print(name.lstrip("a")) #usuneicie zlweje pierwszego a
 print(name.strip("a"))
-
+q.strip(name) #usuwa wszystkie białe znaki z początku i końca tekstu:spacje ( ), tabulatory (\t), znaki nowej linii (\n, \r).
 
 name2 = "ealeksandere"
 print(name2.strip("e")) #usuniecie skrajnych liter

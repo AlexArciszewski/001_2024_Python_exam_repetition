@@ -323,3 +323,15 @@ print(df5)
 #Iris-virginica     0.335616
 #Iris-setosa        0.321918
 #Name: proportion, dtype: float64
+
+
+
+
+
+
+
+
+
+
+
+

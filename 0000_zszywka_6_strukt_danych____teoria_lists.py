@@ -292,6 +292,10 @@ print(chosen_set)
 #
 # print(lista)
 
-
+#Zbieranie elementów w listę
+# for i in range(1, 6):
+#     var_name = f"meeting_0{i}"
+#     meeting_list.append(globals()[var_name].text)
+# print(meeting_list)
 
 
